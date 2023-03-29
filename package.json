@@ -1,0 +1,21 @@
+{
+  "name": "portofolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "css": "node-sass --include-path scss path/to/file.scss path/to/output.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
