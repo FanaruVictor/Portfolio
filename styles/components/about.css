@@ -48,10 +48,18 @@
 .about__li {
     font-size: var(--size-s);
     color: var(--clr-slate600);
+    display: flex;
+    align-items: center;
 }
 
 .about__li::before {
     content: '';
+    margin-right: 0.5em;
+}
+
+.about__li-icon {
+    width: var(--size-xl);
+    height: var(--size-xl);
     margin-right: 0.5em;
 }
 
@@ -121,6 +129,11 @@
     .about__li {
         font-size: var(--size-l);
     }
+
+    .about__li-icon {
+        width: var(--size-2xl);
+        height: var(--size-2xl);
+    }
 }
 
 /* xl */
@@ -144,6 +157,11 @@
 
     .about__li {
         font-size: var(--size-xl);
+    }
+
+    .about__li-icon {
+        width: var(--size-3xl);
+        height: var(--size-3xl);
     }
 
     .about__img {
