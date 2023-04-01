@@ -1,3 +1,13 @@
+@import "../node_modules/modern-normalize/modern-normalize.css";
+@import "./components/header.css";
+@import "./components/hero.css";
+@import "./components/about.css";
+@import "./components/work.css";
+@import "./components/contact.css";
+@import "./components/footer.css";
+@import "./components/mobile-nav.css";
+@import "./utils.css";
+
 :root {
     --clr-dark: #020617;
     --clr-light: #f1f5f9;
@@ -23,7 +33,7 @@
     --size-8xl: 6rem;
     --size-9xl: 8rem;
     --size-10xl: 10rem;
-  
+
 }
 
 * {
@@ -66,4 +76,18 @@ a {
 
 strong {
     color: var(--clr-indigo);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-rose);
+    outline: 1px solidv var(--clr-rose);
 }
