@@ -21,19 +21,19 @@
 	font-weight: 600;
 	text-decoration: none;
 	letter-spacing: -0.05em;
-	background-color: var(--clr-rose);
+	background-color: var(--clr-indigo);
 	color: #f1f5f9;
 	padding: 0.5em 1em;
 	border-radius: 5px;
-	box-shadow: 0 10px 20px rgb(225, 29, 72, 0.5),
-		0 6px 6px rgb(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+	box-shadow: 0 10px 20px rgb(79, 70, 229, 0.5),
+		0 6px 6px rgb(79, 70, 229, 0.5), 0 0 100px -10px var(--clr-indigo);
 	transition: transform 0.3s box-shadow 0.3px;
 }
 
 .btn:hover {
 	transform: translateY(-3px);
 	box-shadow: 0 14px 28px rgb(225, 29, 72, 0.25),
-		0 10px 10px rgb(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+		0 10px 10px rgb(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-indigo);
 }
 
 .container {
@@ -107,7 +107,7 @@
 .light-mode {
 	--clr-light: #020617;
 	--clr-dark: #f1f5f9;
-	--clr-slate800: #1e293b;
-	--clr-slate400: var(--clr-slate800);
-	--clr-slate600: var(--clr-slate800);
+	--clr-slate700: #1e293b;
+	--clr-slate400: var(--clr-slate700);
+	--clr-slate500: var(--clr-slate700);
 }

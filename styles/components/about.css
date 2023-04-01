@@ -18,21 +18,33 @@
 .about__description {
     max-width: 60ch;
     font-size: var(--size-s);
-    color: var(--clr-slate600);
+    color: var(--clr-slate500);
     ;
 }
 
 .about__hr {
-    border-color: var(--clr-slate800);
+    border-color: var(--clr-slate700);
+}
+
+.about__skills {
+    display: flex;
+    justify-content: space-around;
 }
 
 .about__subtitle {
-    font-size: var(--size-s);
+    font-size: var(--size-base);
     color: var(--clr-slate400);
+    margin-bottom: 1rem;
 }
 
 .about__ul-container {
     display: flex;
+    flex-direction: column;
+    font-size: var(--size-base);
+}
+
+.about__skills-tech-frontend {
+    margin-bottom: 1rem;
 }
 
 .about__ul {
@@ -47,7 +59,7 @@
 
 .about__li {
     font-size: var(--size-s);
-    color: var(--clr-slate600);
+    color: var(--clr-slate500);
     display: flex;
     align-items: center;
 }
@@ -83,11 +95,15 @@
     }
 
     .about__subtitle {
-        font-size: var(--size-base);
+        font-size: var(--size-xl);
     }
 
     .about__li {
         font-size: var(--size-base);
+    }
+
+    .about__ul-container {
+        font-size: var(--size-l);
     }
 }
 
@@ -123,7 +139,7 @@
     }
 
     .about__subtitle {
-        font-size: var(--size-l);
+        font-size: var(--size-2xl);
     }
 
     .about__li {
@@ -133,6 +149,10 @@
     .about__li-icon {
         width: var(--size-2xl);
         height: var(--size-2xl);
+    }
+
+    .about__ul-container {
+        font-size: var(--size-xl);
     }
 }
 
@@ -152,7 +172,11 @@
     }
 
     .about__subtitle {
-        font-size: var(--size-xl);
+        font-size: var(--size-3xl);
+    }
+
+    .about__ul-container {
+        font-size: var(--size-2xl);
     }
 
     .about__li {
